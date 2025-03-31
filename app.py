@@ -16,7 +16,7 @@ from langchain.prompts.chat import (
 
 # Set page configuration
 st.set_page_config(
-    page_title="Academic Quiz Generator",
+    page_title="Trivia Quiz",
     page_icon="🧠",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -552,7 +552,7 @@ def display_login_register():
                     st.error("Username already exists. Please choose a different username.")
 
 def display_user_home():
-    st.title(f"🧠 Welcome to Academic Quiz Generator, {st.session_state['username']}!")
+    st.title(f"🧠 Welcome to Trivia Quiz , {st.session_state['username']}!")
     
     # Reset quiz state if returning to home
     if st.session_state['quiz_completed'] and st.button("Return to Home"):
