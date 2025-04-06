@@ -520,7 +520,7 @@ def get_user_results(user_id):
 
 def generate_quiz(subject_id, subject_name):
     # Initialize Groq LLM
-    groq_api_key = "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"
+    groq_api_key = "GROQ_API_KEY"
     if not groq_api_key:
         st.error("GROQ API Key not found. Please set the GROQ_API_KEY environment variable.")
         return None
