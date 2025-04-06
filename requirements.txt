@@ -1,4 +1,13 @@
 streamlit
 pandas
+
+# Database connectors
+mysql-connector-python
+
+# LLM integration
 langchain
 langchain-groq
+
+
+matplotlib
+plotly
