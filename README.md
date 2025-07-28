@@ -1,6 +1,3 @@
-Here’s a sample `README.md` file for your **AI Quiz App** based on the uploaded `app.py` which uses Streamlit and OpenAI's API to generate quiz questions dynamically:
-
----
 
 # 🧠 AI Quiz Generator
 
